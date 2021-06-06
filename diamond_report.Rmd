@@ -1,0 +1,10 @@
+---
+title: "Test R Markdown"
+author: "Rob Taylor"
+date: "07/06/2021"
+output: html_document
+---
+
+Plotting diamond data using hex_geom.
+
+
