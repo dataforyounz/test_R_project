@@ -2,9 +2,19 @@
 title: "Test R Markdown"
 author: "Rob Taylor"
 date: "07/06/2021"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
+
+```{r setup, echo = F}
+require( tidyverse )
+```
 
 Plotting diamond data using hex_geom.
 
+```{r}
+ggplot( diamonds, aes(carat, price)) +
+  geom_hex()
+```
 
